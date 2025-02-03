@@ -8,6 +8,11 @@ variable "region" {
   type = string
 }
 
+variable "zone" {
+  description = "Google Cloud Zone"
+  type = string
+}
+
 variable "virtual_machine_name" {
   description = "Google Compute Engine Name"
   type = string
