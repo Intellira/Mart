@@ -14,8 +14,7 @@ resource "google_compute_instance" "virtual_computer" {
     # Compute Engine Network
     network = "default"
 
-    access_config {
-      # Public Accessible
-    }
+    # Public Accessible
+    access_config { }
   }
 }
